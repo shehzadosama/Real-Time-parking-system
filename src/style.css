@@ -1,0 +1,127 @@
+body {
+  padding: 50px;
+ background-image: url("4.jpg");
+ /* background-repeat: no-repeat; */
+       background-attachment: fixed;
+  font-family: sans-serif;
+  color: white;
+}
+.container{
+width:400px;
+/* border: 2px; */
+
+margin:10px auto;
+  /* background-color: rgba(85, 88, 96, 0.56); 
+   */
+    background-color: rgba(4, 4, 4, 0.56);
+
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+.containerList{
+width:700px;
+/* border: 2px; */
+
+margin:10px auto;
+ background-color: rgba(4, 4, 4, 0.56);
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+
+
+
+
+
+/* div{
+width:400px;
+border: 2px;
+background-color: red;
+margin: 80px auto;
+ background-color: rgba(4, 4, 4, 0.56);
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+} */
+
+.txtName ,.txtEmail, .txtPassword, .name, .education, .overview, .gpa, .skills, .jobTitle, .sal, .desc,.txtFName,.txtLName,.location,.slots{
+    outline: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    /*-webkit-appearance: none;*/
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ccd5e5;
+}
+input:focus {
+border-bottom: 3px solid #8099dd;
+}
+/* .radio{
+   
+     padding: 0px;
+      margin: 0px;
+} */
+button{
+    background: #8099dd;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 30px;
+     margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    /*-webkit-transition: 0.3s all;*/
+}
+
+button:hover{
+    background: white;
+}
+h1{
+text-align: center;
+}
+
+
+#error{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+li{
+    list-style-type: none;
+    width:90%;
+  background-color: rgba(183, 199, 229, 0.56);  
+ /* background-color: #8099dd; */
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#info{
+      color: #68f442;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+}
+
+
+.username{
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: bold;
+    color: #8099dd;
+    font-size:40px;
+}
